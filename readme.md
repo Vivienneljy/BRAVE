@@ -1,6 +1,6 @@
 # BRAVE
 
-This is the implmentation of "Breaking the Benign Majority: A Variance-Based Evaluator to Find Malicious Client of Label-Flipping Attacks in Federated Learning". 
+This is the implmentation of "Breaking the Benign Majority: Behavioral Representation Analysis via Variance Evaluation for Defending against Label Flipping Attacks in Federated Learning". 
 
 ## Code Structure
 
@@ -33,3 +33,4 @@ The architecture of this code is as fowllowed:
 
 - To use BRAVE as the defense, set `defense='brave'` for clustering, and `idea1=True` for identifying malicious clusters
 - To integrate BRAVE with other anomaly detection methods (FLAME, XMAM, LFighter,DPFLA), set `idea1=True`, and `defense='flame/xmam/lfighter/dpfla'`
+
